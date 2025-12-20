@@ -15,10 +15,22 @@ import Hero from '../Hero';
 export default function HeroSwiper() {
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide><Hero></Hero></SwiperSlide>
-        <SwiperSlide><Hero></Hero></SwiperSlide>
-        <SwiperSlide><Hero></Hero></SwiperSlide>
+      <Swiper navigation={true} modules={[Navigation]} className='mySwiper '  >
+        <SwiperSlide style={{ backgroundColor: "#4287f5" }} >
+        
+                <Hero></Hero>
+               </SwiperSlide>
+        <SwiperSlide style={{ backgroundColor: "#42e9f5" }}>
+            
+                <Hero></Hero>
+                
+           
+        </SwiperSlide>
+        <SwiperSlide style={{ backgroundColor: "#42f5b0" }}>
+           
+                <Hero></Hero>
+                
+                </SwiperSlide>
         
       </Swiper>
     </>
