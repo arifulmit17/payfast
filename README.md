@@ -12,8 +12,7 @@ Payfast is a digital wallet
 [this documentation](https://react.dev/learn/react-compiler/installation).
 
 
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ application, we recommend updating the configuration to enable type-aware lint rules:
 
 ```js
 export default defineConfig([
