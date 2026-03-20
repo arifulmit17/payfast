@@ -11,8 +11,7 @@ Payfast is a digital wallet
 
 
 
-
- updating the configuration to enable type-aware lint rules:
+ type-aware lint rules:
 
 ```js
 export default defineConfig([
