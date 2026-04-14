@@ -13,8 +13,7 @@ Payfast is a digital wallet
 
 
 
-```js
-export default defineConfig([
+t defineConfig([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
